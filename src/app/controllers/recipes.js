@@ -7,7 +7,7 @@ module.exports = {
         })
     },
     create(req,res){
-        return response.render("recipes/create")
+        return res.render("recipes/create")
     },
     post(req,res){
         
