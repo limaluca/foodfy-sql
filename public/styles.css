@@ -1,0 +1,148 @@
+    @import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap";
+    *{
+        margin: 0;
+        border: 0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    
+    /*
+    header {
+        padding-bottom: 36px;
+        padding-top: 10px;
+    }
+    
+    header {
+        padding-left: 25vh;
+        display: inline-block
+    }
+    
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .foodfyMenu a+a {
+        margin-left: 122px;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .foodfyMenu a+a+a {
+        margin-left: 30px;
+    }
+    
+    .foodfyMenu-Admin {
+        background-color: black;
+        color: white;
+        width: 100%;
+    }
+    
+    .foodfyMenu-Admin a+a {
+        color: white;
+    }
+    
+    .foodfyBanner {
+        width: 940px;
+        height: 366px;
+        background-color: #FBDFDB;
+        position: relative;
+        border-radius: 30px;
+    }
+    
+    .bannerTexts {
+        position: absolute;
+        top: 117px;
+        left: 60px;
+    }
+    
+    .bannerTexts p {
+        opacity: 0.7;
+        color: #000000;
+    }
+    
+    .bannerChef img {
+        position: absolute;
+        top: 66px;
+        right: 100px;
+    }
+     CARDS das receitas 
+    
+    .cardsTitle {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    */
+    
+    .wrapped{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 32px;
+        flex-direction: column;
+    }
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 940px;
+        gap: 20px;
+    }
+    
+    .card {
+        max-width: 300px;
+        margin-bottom: 30px;
+    }
+    
+    .cardImageContainer img {
+        width: 100%;
+        border-radius: 15px;
+        object-fit: contain;
+    }
+    
+    .cardDishTitle {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    
+    .cardDishCook {
+        margin-top: 5px;
+        font-size: 14px;
+        color: #777777;
+    }
+    
+
+    footer, header{
+        text-align: center;
+    }
+
+    header nav a {
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        padding: 8px 16px;
+        margin-top: 4px;
+        display: inline-block;
+    }
+    .recipe{
+        background-color: rgb(160, 138, 138);
+        width: 95vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .recipe-image{
+        height: 280px;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+     .recipe-settings{
+         width: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+     }
+
+
