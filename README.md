@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  Desafio 5: Persistindo dados no Foodfy
+  Desafio: Persistindo dados no Foodfy
 </h3>
 
 <blockquote align="center">“Todo programador é um autor.”</blockquote>
@@ -106,14 +106,9 @@ Fazer uma contagem de todas a receitas daquele chef, e apresentar nessa página.
 
 Acesse o arquivo `layouts/site/index.html` para ver todas especificações do layout do site.
 
-## :calendar: Entrega
-
-Esse desafio **não precisa ser entregue** e não receberá correção. Após concluí-lo, adicionar esse código ao seu Github é uma boa forma de demonstrar seus conhecimentos para oportunidades futuras.
-
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](../LICENSE) para mais detalhes.
 
 ---
 
-Feito com :purple_heart: by [Rocketseat](https://rocketseat.com.br) :wave: [Entre na nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
