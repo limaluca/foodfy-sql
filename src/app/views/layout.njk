@@ -5,30 +5,28 @@
         <title>Foodfy</title>
         {% endblock %}
         <link rel="stylesheet" href="/styles.css">
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
 <body>
-    {% block header %}
-    <header>
-        <nav>
-            <a href="/">
-                <img class="logo"  src="assets/logoAdmin.png" alt="logo">
-            </a>
-            <a href="/recipes">RECEITAS</a>
-            <a href="/chefs">CHEFS</a>
-        </nav>
-    </header>
-
+{% block header %}
+<header>
+    <nav>
+        <a href="/">
+            <img class="logo"  src="../assets/logoAdmin.png" alt="logo">
+        </a>
+        <a href="/recipes">RECEITAS</a>
+        <a href="/chefs">CHEFS</a>
+    </nav>
+</header>
 {% endblock %}
-    <div class="wrapped">
-        {%block content%} 
-        {%endblock%}
-    </div>
-    <script src="/public/scripts.js">
-    </script>
+<div class="wrapped">
+    {%block content%} 
+    {%endblock%}
+</div>
 
 </body>
+<script src="/scripts.js"></script>
 </html>

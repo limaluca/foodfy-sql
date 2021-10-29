@@ -1,4 +1,12 @@
-<button type="submit">Salvar</button>
+
+
+{% block tools %}
+<div class="tools">
+      <h3>Adicionando uma nova receita</h3>
+      <button type="submit">Salvar receita</button>
+</div>
+
+{% endblock %}
 
 <div class="item">
       <div>Imagem</div>
@@ -26,12 +34,12 @@
 
 <div class="item">
       <div>Ingredientes</div>
-      <div class="item" id="ingredients">
+      <div id="ingredients">
             <div class="ingredient">
                   <input type="text" name="ingredients[]" value="{{recipe.ingredients}}"/>
             </div>
       </div>
-      <button type="button" class="add-ingredient">Adicionar novo ingrediente</button>
+      <a class="add-ingredient">Adicionar novo ingrediente</a>
 </div>
 
 
@@ -42,18 +50,15 @@
                   <input type="text" name="preparations[]" value="{{recipe.preparations}}"/>
             </div>
       </div>
-      <button type="button" class="add-preparation">Adicionar novo passo</button>
+      <a class="add-preparation">Adicionar novo passo</a>
 </div>
 
 <div class="item">
       <div>Informações adicionais</div>
       <div>
-            <input type="text" name="information" value="{{recipe.information}}">
+            <input type="text" name="information" value="{{recipe.information}}" style="min-height: 200px;">
       </div>
 </div>
-
-
-
 
 
 <script>

@@ -1,11 +1,14 @@
 {% extends "layout.njk" %}
 
+{% block head %}
+        <title>Criando uma nova receita</title>
+{% endblock %}
 
 {% block content %}
 
-      <form method="POST" action="/recipes" class="recipeForm">
-            <h2>Criando Receita</h2>
+      <form method="POST" action="/recipes">
             {% include 'recipes/fields.njk'%}
       </form>
 
+<script src="/scripts.js"></script>
 {% endblock content %}

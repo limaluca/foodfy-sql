@@ -8,5 +8,16 @@ module.exports = {
          
             callback(results.rows)
         })
-    }
+    },
+    find(id,callback){
+        db.query(`SELECT recipes.*
+                FROM recipes
+                WHERE recipes.id=$1`, [id], function(err,results){
+            if(err){
+                console.log(`Find: Database error! ${err}`)
+                return
+            }
+            return callback(results.rows[0])
+        })
+    },
 }
